@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="​Free fitness training">
+    <meta name="description" content="">
+    <title>index_principal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='nicepage.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index_principal.css') }}" media="screen">
+    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='jquery-1.9.1.min.js') }}" defer=""></script>
+    <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='nicepage.js') }}" defer=""></script>
+    <meta name="generator" content="Nicepage 6.9.9, nicepage.com">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "",
+            "url": "/"
+        }
+    </script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="index_principal">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="/">
+    <meta data-intl-tel-input-cdn-path="intlTelInput/">
+</head>
+<body>
+    <header class="u-clearfix u-header u-header" id="sec-951a">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <img class="u-image u-image-contain u-image-default u-opacity u-opacity-30 u-image-1" src="{{ url_for('static', filename='images/delcy.png') }}" alt="" data-image-width="267" data-image-height="103">
+
+        <nav class="u-align-left u-font-size-14 u-menu u-menu-hamburger u-nav-spacing-25 u-offcanvas u-menu-1" data-responsive-from="XL">
+          <div class="menu-collapse">
+            <a class="u-button-style u-nav-link" href="#" style="padding: 4px 0px; font-size: calc(1em + 8px);">
+              <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 302 302" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7b92"></use></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-7b92" x="0px" y="0px" viewBox="0 0 302 302" style="enable-background:new 0 0 302 302;" xml:space="preserve" class="u-svg-content"><g><rect y="36" width="302" height="30"></rect><rect y="236" width="302" height="30"></rect><rect y="136" width="302" height="30"></rect>
+</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-spacing-20 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-base u-text-grey-90 u-text-hover-palette-4-base" href="{{ url_for('index_principal') }}" style="padding: 10px;">Delcy's Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-4-base u-text-grey-90 u-text-hover-palette-4-base" href="resultados.html" style="padding: 10px;">Demo</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-align-center u-black u-container-style u-inner-container-layout u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-spacing-5 u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('index_principal') }}">Delcy's Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{ url_for('resultados') }}">Demo</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-65"></div>
+          </div>
+        </nav>
+      </div></header> 
+    <section class="u-align-center-sm u-align-center-xs u-align-right-lg u-align-right-md u-align-right-xl u-clearfix u-image u-section-1" id="sec-acc6" data-image-width="1619" data-image-height="1080">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-body-alt-color u-text-1" data-animation-name="slideIn" data-animation-duration="2000" data-animation-direction="Left"> Delcy Search</h1>
+        <h3 class="u-text u-text-body-alt-color u-text-2">El mejor motor de busqueda. </h3>
+        <div class="u-form u-form-1">
+          <form action="/buscar" class="u-clearfix u-form-custom-backend u-form-horizontal u-form-spacing-0 u-inner-form" style="padding: 0px;" source="custom" name="form" redirect-address="/resultados.html" redirect="true" method="get">
+            <div class="u-form-group u-form-group-1">
+              <label for="query" class="u-label u-label-1"></label>
+              <input type="text" placeholder="Qué desea buscar en Delcy's ?" id="query" name="query" class="u-input u-input-rectangle u-text-grey-50 u-input-1" required="required">
+            </div>
+            <div class="u-align-left u-form-group u-form-submit">
+              <a href="#" class="u-active-palette-2-dark-2 u-border-1 u-border-active-palette-2-dark-2 u-border-hover-black u-border-palette-2-base u-btn u-btn-submit u-button-style u-hover-black u-palette-2-base u-btn-1">&nbsp; &nbsp;Buscar&nbsp; &nbsp; </a>
+              <input type="submit" value="Buscar" class="u-form-control-hidden">
+            </div>
+            <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+            <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+            <input type="hidden" value="" name="recaptchaResponse">
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    
+    <section class="u-backlink u-clearfix u-grey-80">
+      <p class="u-text">
+        <span>This site was created with the </span>
+        <a class="u-link" href="https://nicepage.com/" target="_blank" rel="nofollow">
+          <span>Nicepage</span>
+        </a>
+      </p>
+    </section>
+  
+</body></html>
